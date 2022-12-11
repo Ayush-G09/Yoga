@@ -25,11 +25,11 @@ function Registration(props) {
             <label className='text-xl font-bold ml-16 mt-5 sm:mt-40 sm:ml-28'>Name</label>
             <input type='text' placeholder='Abc' className='w-1/2 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg p-2 outline-none placeholder-black'></input>
             <label className='text-xl font-bold ml-16 sm:ml-28 mt-5'>DOB</label>
-            <input type='date' className='w-1/2 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg p-2 outline-none'></input>
+            <input type='date' className='bg-white w-1/2 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg p-2 outline-none'></input>
             <label className='text-xl font-bold ml-16 sm:ml-28 mt-5'>Email <label className='text-sm text-red-500'>(Optional)</label></label>
             <input type='email' placeholder='abc@domain.com' className='w-1/2 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg p-2 outline-none placeholder-black'></input>
             <label className='text-xl font-bold ml-16 sm:ml-28 mt-5'>Select Batch</label>
-            <select name='batch' id='batch' className='w-2/3 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg px-1 outline-none'>
+            <select name='batch' id='batch' className='bg-white w-2/3 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg px-1 outline-none'>
                 <option value='b1'>Morning Batch - 06:00 Am to 07:00 Am</option>
                 <option value='b2'>Morning Batch - 07:00 Am to 08:00 Am</option>
                 <option value='b3'>Morning Batch - 08:00 Am to 09:00 Am</option>
