@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import MobileNumber from "./MobileNumber/MobileNumber";
+import Registration from "./Registration/Registration";
+import UserDashboard from "./UserDashboard/UserDashboard";
 
 function App() {
+
+  const [screen, setScreen] = useState(0);
+
+  function ChangeScreen(i) {
+    setScreen(i);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {screen === 0 ? <MobileNumber change={ChangeScreen}/> : null}
+      {screen === 1 ? <Registration change={ChangeScreen}/> : null}
+      {screen === 2 ? <UserDashboard change={ChangeScreen}/> : null}
+    </>
   );
 }
 
