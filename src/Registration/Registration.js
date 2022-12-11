@@ -25,7 +25,7 @@ function Registration(props) {
             <label className='text-xl font-bold ml-16 mt-5 sm:mt-40 sm:ml-28'>Name</label>
             <input type='text' placeholder='Abc' className='w-1/2 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg p-2 outline-none placeholder-black'></input>
             <label className='text-xl font-bold ml-16 sm:ml-28 mt-5'>DOB</label>
-            <input type='date' className='bg-white w-1/2 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg p-2 outline-none'></input>
+            <input type='date' className='bg-white w-1/2 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg p-2 outline-none placeholder-black'></input>
             <label className='text-xl font-bold ml-16 sm:ml-28 mt-5'>Email <label className='text-sm text-red-500'>(Optional)</label></label>
             <input type='email' placeholder='abc@domain.com' className='w-1/2 sm:w-2/5 ml-16 sm:ml-28 h-8 rounded-lg p-2 outline-none placeholder-black'></input>
             <label className='text-xl font-bold ml-16 sm:ml-28 mt-5'>Select Batch</label>
